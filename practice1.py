@@ -98,9 +98,102 @@
 
 
 # 12. find all factors of a number
-n=16
-i=2
-while i<n:
-    if n%i==0:
-        print(i)
-    i+=1
+# n=16
+# i=2
+# while i<n:
+#     if n%i==0:
+#         print(i)
+#     i+=1
+
+
+# 13.Write a program to calculate the factorial of a number.
+# n=4
+# factorial=1
+# while n>=1:
+#     factorial*=n
+#     n-=1
+# print(factorial)
+
+
+# 14.Write a program to find LCM of two numbers.
+# a=4
+# b=6
+# lcm=max(a,b)
+# while True:
+#     if lcm%a==0 and lcm%b==0:
+#         break
+#     lcm+=1
+# print(f"LCM of {a} and {b} is: {lcm}")
+
+
+# 15.Write a program to check whether a number is Prime number or not.
+# n=6
+# count=0
+# start=2
+# while start<n:
+#     if n%start==0:
+#         count+=1
+#         break
+#     start+=1
+# if count==0:
+#     print("Prime number")
+# else:
+#     print("Not a prime number")
+
+
+# 16.Write a program to print all Prime numbers between 1 to n.
+# a=20
+# start=2
+# while start<=a:
+#     i=2
+#     prime=True
+#     while i<start:
+#         if start%i==0:
+#             prime=False
+#             break
+#         i+=1
+#     if prime:
+#         print(start, end=" ")
+#     start+=1
+    
+
+# 17.Write a program to find all prime factors of a number.
+# n=20
+# start=2 
+# while start<=n:
+#     if n%start==0:
+#        i=2
+#        prime=True
+#        while i<start:
+#            if start%i==0:
+#                prime=False
+#                break
+#            i+=1
+#        if prime:
+#          print(start,end=" ")
+#     start+=1
+
+
+# 18.Write a program to check whether a number is an Armstrong number or not.
+# a=371
+# b=a
+# am=0
+# digit=0
+# temp=a
+# while temp>0:
+#     digit+=1
+#     temp//=10
+# while b>0:
+#     am=am+(b%10)**digit
+#     b=b//10
+# if am==a:
+#     print("Armstrong number")
+# else:
+#     print("Not an armstrong number")
+
+
+# 19.Write a program to check whether a number is Strong number or not
+a=145
+b=a
+fact=1
+while
