@@ -193,7 +193,59 @@
 
 
 # 19.Write a program to check whether a number is Strong number or not
-a=145
-b=a
-fact=1
-while
+# a=145
+# b=a
+# sum=0
+# while b>0:
+#     digit=b%10
+#     fact=1
+#     i=1
+#     while i<=digit:
+#         fact*=i
+#         i+=1
+#     sum+=fact
+#     b//=10
+# if sum==a:
+#     print("Strong Number")
+# else:
+#     print("Not an Strong Number")
+
+
+# 20.Write a program to check whether a number is perfect number or not
+# n=6
+# i=1
+# sum=0
+# while i<n:
+#     if n%i==0:
+#         sum+=i
+#     i+=1
+# if sum==n:
+#     print("Perfect number")
+# else:
+#     print("Not a Perfect number")
+
+
+# 21.Write a program to print fibonacci series upto n terms
+# n=15
+# a=0
+# b=1
+# i=1
+# while i<=n:
+#     print(a,end=" ")
+#     c=a+b
+#     a=b
+#     b=c
+#     i+=1
+
+
+# 22.Write a program to find ones complement of a binary number
+a="01010101"
+i=0
+complement=""
+while i<len(a):
+    if a[i]=='0':
+        complement+='1'
+    else:
+        complement+='0'
+    i+=1
+print(complement)

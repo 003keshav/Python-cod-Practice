@@ -41,10 +41,16 @@
 #     print("")
 
 
-for k in range(1,7):
-    for l in range(1,7):
-        if l==6 or k==6 or l==6-k+1:
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
-    print("")
+#           * 
+#         * *
+#       *   *
+#     *     *
+#   *       *
+# * * * * * *
+# for k in range(1,7):
+#     for l in range(1,7):
+#         if l==6 or k==6 or l==6-k+1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print("")
