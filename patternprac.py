@@ -16,12 +16,12 @@
 #    # 
 ######
 # n=6
-# for k in range(n):
+# for k in range(n-2):
 #     for l in range(n):
-#         if k==0 or k==n-1 or l==0 or l==n-1  :
-#             print("*", end=" ")
+#         if k==0 or k==n-3 or l==0 or l==n-1  :
+#             print("*", end="")
 #         else:
-#             print(" ", end=" ")
+#             print(" ", end="")
 #     print()
 
 
@@ -34,6 +34,8 @@
 #     for l in range(k+1):
 #         print(chr(ch+l), end=" ")
 #     print()
+
+
 
 
     # A
@@ -51,10 +53,10 @@
     # C D 
     # B C D 
     # A B C D
-# c=68
+# c=69
 # for a in range(4):
 #     for b in range(a+1):
-#         print(chr(c+a-b), end=" ")
+#         print(chr(c-a+b), end=" ")
 #     print()
 
 
@@ -62,28 +64,28 @@
         # #
       # # #
     # # # #
-# for a in range(4):
-#     for b in range(4):
-#         if b>=4-a-1:
-#             print("#", end=" ")
-#         else:
-#             print(" ", end=" ")
-#     print()
-
+# n=5
+# for k in range(1,n+1):
+#   for l in range(1,n+1):
+#     if k+l<=n:
+#       print(" ",end=" ")
+#     else:
+#       print("*", end=" ")
+#   print() 
 
     #       1
     #     1 2
     #   1 2 3
     # 1 2 3 4
-# n=4
-# for a in range(n):
+# n=5
+# for a in range(1,n+1):
 #     num=1
-#     for b in range(n):
-#         if b>=n-a-1:
+#     for b in range(1,n+1):
+#         if a+b<=n:
+#             print(" ",end=" ")
+#         else:
 #             print(num, end=" ")
 #             num+=1
-#         else:
-#             print(" ", end=" ")
 #     print()
 
 
@@ -91,10 +93,10 @@
     #   1 2 3
     #     1 2
     #       1
-# n=4
-# for a in range(n):
+# n=5
+# for a in range(1,n+1):
 #     num=1
-#     for b in range(n):
+#     for b in range(1,n+1):
 #         if a<=b:
 #             print(num, end=" ")
 #             num+=1

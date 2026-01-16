@@ -239,13 +239,13 @@
 
 
 # 22.Write a program to find ones complement of a binary number
-a="01010101"
-i=0
-complement=""
-while i<len(a):
-    if a[i]=='0':
-        complement+='1'
-    else:
-        complement+='0'
-    i+=1
-print(complement)
+# a="01010101"
+# i=0
+# complement=""
+# while i<len(a):
+#     if a[i]=='0':
+#         complement+='1'
+#     else:
+#         complement+='0'
+#     i+=1
+# print(complement)
