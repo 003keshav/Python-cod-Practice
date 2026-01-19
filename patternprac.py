@@ -121,19 +121,22 @@
 #     print()
 
 
-        # # # # #   
-      # # # # #
-    # # # # #
+    # # # # #   
+   # # # # #
   # # # # #
+ # # # # #
 # # # # #
-# st=5
-# for a in range(5):
-#     for b in range(5+st):
-#         if b>=5-a-1 and b<5-a-1+st:
-#             print("#", end=" ")
+# s = 5
+# for i in range(s):
+#     for j in range(s + s):
+#         if j < s - i - 1:
+#             print(" ", end="")
+#         elif j<(s-i-1)+s:
+#             print("# ", end="")
 #         else:
-#             print(" ", end=" ")
+#             print(" ",end="")
 #     print()
+
 
 
 #         1 2 3 4 5   
