@@ -30,11 +30,11 @@
 
 
 # variable length argument or *args
-# def fun(*args):
-#     print(num, type(num))
+def fun(*args):
+    print(num, type(num))
 
-# fun(10)
-# fun(10,20,30,40,50)
+fun(10)
+fun(10,20,30,40,50)
 
 
 
