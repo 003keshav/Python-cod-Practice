@@ -28,7 +28,7 @@
 #         self.name=name
 #         self.email=email
 #     def detail(self):
-#         print(self, "It has", self.name, self.email)
+#         print("It has", self.name, self.email)
 
 # abhi=Employee("Abhijeet", 'abhijeet@gmail.com')
 # abhi.detail()
@@ -36,22 +36,22 @@
 
 # inheretiance is a properties of class can be access by another class
 
-class father: #supaar calss/ Base/ parent
-    property=5
-    def caretaker(self):
-        print("caretaker is shyam ji guard")
+# class father: #supaar calss/ Base/ parent
+#     property=5
+#     def caretaker(self):
+#         print("caretaker is shyam ji guard")
 
-# son us child which can access property of parent class (father)
-class son(father):  #subclass/ derived class/ child class
-    working=None
-    def Enquiry(self):
-        print("Who will take care of my flat")
-        self.caretaker() #calling inheritance properties
-        # super(). caretaker()
-        super().caretaker() #calling inheritance properties mostly call by super(0)
+# # son us child which can access property of parent class (father)
+# class son(father):  #subclass/ derived class/ child class
+#     working=None
+#     def Enquiry(self):
+#         print("Who will take care of my flat")
+#         self.caretaker() #calling inheritance properties
+#         # super(). caretaker()
+#         super().caretaker() #calling inheritance properties mostly call by super(0)
 
-s1=son()
-print(s1.property, s1.working)
-s1.Enquiry()
-f1=father()
-f1.caretaker()
+# s1=son()
+# print(s1.property, s1.working)
+# s1.Enquiry()
+# f1=father()
+# f1.caretaker()
