@@ -8,6 +8,7 @@ python m method overloading nhi hoti
 2.because of name spacing (Assignment: Name space)
 but we can achive it approximetly by using args and kwrgs bot exactly                    
 '''
+# agar same class m perameters change hote h to use overloading bolte h
 # class Regex:
 #     def info(self):
 #         print("hey")
@@ -23,6 +24,7 @@ method overriding when chid class have same method of parent class with same num
 and because of method overriding we can achive polymorphism
 Example of polymorphism by overriding
 '''
+# agar different class m perameters change hote h to use overriding bolte h
 # class A:
 #     def info(self):
 #         print("A class info")
